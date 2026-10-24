@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ittokenkou - 自作アプリ</title>
+  <meta name="description" content="文系の社会人が作ったWebアプリの紹介サイトです。学習、健康、暮らし、遊び。インストール不要で、ブラウザからすぐ使えます。">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">本文へスキップ</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">ittokenkou</span>
+      <span class="brand-sub">自作アプリ</span>
+    </a>
+    <nav class="nav" aria-label="サイト内">
+      <a href="#apps">アプリ</a>
+      <a href="#about">このサイト</a>
+      <a href="https://note.com/americanetf" target="_blank" rel="noopener noreferrer">note</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-label="紹介">
+      <img class="hero-photo" src="images/hero.jpg" alt="雪をいただいた富士山と、そのふもとの街並み">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">ittokenkou</p>
+        <h1>自作アプリ</h1>
+        <p class="lead">文系の社会人が、使えるところまで自分で作ったWebアプリです。ストアのインストールは要りません。スマホでもパソコンでも、ブラウザで開けます。</p>
+        <a class="btn" href="#apps">アプリを見る</a>
+      </div>
+    </section>
+
+    <section class="section" id="apps">
+      <div class="wrap">
+        <h2>おすすめ</h2>
+        <p class="section-lead">学習、心、受験、勉強。はじめに読みたい4つです。</p>
+        <div class="grid">
+        <article class="card" data-category="暮らし" data-search="あげあげ 暮らし 楽しかったこと、できたこと、感謝を1日3つ残す日記。記録はその端末の中だけに保存されます。">
+          <a class="card-media" href="https://note.com/americanetf/n/n6f5684704893" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/ageage.jpg" alt="あげあげの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">暮らし</p>
+            <h3><a href="https://note.com/americanetf/n/n6f5684704893" target="_blank" rel="noopener noreferrer">あげあげ</a></h3>
+            <p>楽しかったこと、できたこと、感謝を1日3つ残す日記。記録はその端末の中だけに保存されます。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n6f5684704893" target="_blank" rel="noopener noreferrer">紹介記事</a>
+              
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="学習" data-search="撮るだけ家庭教師 学習 問題を撮ると、全科目に対応した段階的な解説で、わかるまで寄り添います。">
+          <a class="card-media" href="https://note.com/americanetf/n/na5618ce71a97" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/study.jpg" alt="撮るだけ家庭教師の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">学習</p>
+            <h3><a href="https://note.com/americanetf/n/na5618ce71a97" target="_blank" rel="noopener noreferrer">撮るだけ家庭教師</a></h3>
+            <p>問題を撮ると、全科目に対応した段階的な解説で、わかるまで寄り添います。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/na5618ce71a97" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="健康" data-search="めいそう 健康 続けるのが少し楽しくなる、瞑想のサポートアプリです。">
+          <a class="card-media" href="https://note.com/americanetf/n/n24596c35aeb7" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/meisou.png" alt="めいそうの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">健康</p>
+            <h3><a href="https://note.com/americanetf/n/n24596c35aeb7" target="_blank" rel="noopener noreferrer">めいそう</a></h3>
+            <p>続けるのが少し楽しくなる、瞑想のサポートアプリです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n24596c35aeb7" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="学習" data-search="合う高校 学習 偏差値だけでなく、内申・通学・校風・併願まで見て、高校選びを支えます。">
+          <a class="card-media" href="https://note.com/americanetf/n/nf7fcd4352678" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/juken.png" alt="合う高校の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">学習</p>
+            <h3><a href="https://note.com/americanetf/n/nf7fcd4352678" target="_blank" rel="noopener noreferrer">合う高校</a></h3>
+            <p>偏差値だけでなく、内申・通学・校風・併願まで見て、高校選びを支えます。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nf7fcd4352678" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="catalog-title">
+      <div class="wrap">
+        <h2 id="catalog-title">すべてのアプリ</h2>
+        <div class="toolbar">
+          <div class="filters" role="group" aria-label="カテゴリで絞り込む">
+            <button class="chip" type="button" data-filter="すべて" aria-pressed="true">すべて</button>
+            <button class="chip" type="button" data-filter="学習" aria-pressed="false">学習</button>
+            <button class="chip" type="button" data-filter="健康" aria-pressed="false">健康</button>
+            <button class="chip" type="button" data-filter="暮らし" aria-pressed="false">暮らし</button>
+            <button class="chip" type="button" data-filter="遊び" aria-pressed="false">遊び</button>
+          </div>
+          <label class="search-label">
+            <span class="visually-hidden">アプリを検索</span>
+            <input class="search" id="search" type="search" placeholder="アプリ名で検索" autocomplete="off">
+          </label>
+        </div>
+        <p class="result-count">表示中 <span id="result-count">0件</span></p>
+        <div class="catalog-grid grid" id="catalog">
+        <article class="card" data-category="暮らし" data-search="あげあげ 暮らし 楽しかったこと、できたこと、感謝を1日3つ残す日記。記録はその端末の中だけに保存されます。">
+          <a class="card-media" href="https://note.com/americanetf/n/n6f5684704893" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/ageage.jpg" alt="あげあげの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">暮らし</p>
+            <h3><a href="https://note.com/americanetf/n/n6f5684704893" target="_blank" rel="noopener noreferrer">あげあげ</a></h3>
+            <p>楽しかったこと、できたこと、感謝を1日3つ残す日記。記録はその端末の中だけに保存されます。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n6f5684704893" target="_blank" rel="noopener noreferrer">紹介記事</a>
+              
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="学習" data-search="中1英単語 学習 中学1年生の英単語を、毎日5分、音から定着させる学習アプリです。">
+          <a class="card-media" href="https://note.com/americanetf/n/n5c5227e5406d" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/english.png" alt="中1英単語の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">学習</p>
+            <h3><a href="https://note.com/americanetf/n/n5c5227e5406d" target="_blank" rel="noopener noreferrer">中1英単語</a></h3>
+            <p>中学1年生の英単語を、毎日5分、音から定着させる学習アプリです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n5c5227e5406d" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="健康" data-search="白髪トラッカー 健康 写真から白髪の割合の目安を見る、セルフチェック用のアプリです。医療診断ではありません。">
+          <a class="card-media" href="https://note.com/americanetf/n/n6ce420d94f91" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/whitehair.png" alt="白髪トラッカーの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">健康</p>
+            <h3><a href="https://note.com/americanetf/n/n6ce420d94f91" target="_blank" rel="noopener noreferrer">白髪トラッカー</a></h3>
+            <p>写真から白髪の割合の目安を見る、セルフチェック用のアプリです。医療診断ではありません。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n6ce420d94f91" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="暮らし" data-search="駅到着アラーム 暮らし 電車内のアナウンスを手がかりに、降りる駅の手前で知らせる寝過ごし防止アプリです。">
+          <a class="card-media" href="https://note.com/americanetf/n/nfd51ef9150fc" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/station.jpg" alt="駅到着アラームの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">暮らし</p>
+            <h3><a href="https://note.com/americanetf/n/nfd51ef9150fc" target="_blank" rel="noopener noreferrer">駅到着アラーム</a></h3>
+            <p>電車内のアナウンスを手がかりに、降りる駅の手前で知らせる寝過ごし防止アプリです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nfd51ef9150fc" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="遊び" data-search="AIスピードガン 遊び スマホのカメラで、ボールの球速を測るスピードガンです。">
+          <a class="card-media" href="https://note.com/americanetf/n/n86782c1bce93" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/speedgun.png" alt="AIスピードガンの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">遊び</p>
+            <h3><a href="https://note.com/americanetf/n/n86782c1bce93" target="_blank" rel="noopener noreferrer">AIスピードガン</a></h3>
+            <p>スマホのカメラで、ボールの球速を測るスピードガンです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n86782c1bce93" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="暮らし" data-search="簡単 距離測定 暮らし カメラを向けて、だいたいの距離を手軽に測ります。">
+          <a class="card-media" href="https://note.com/americanetf/n/nd07bd2de4fc6" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/distance.png" alt="簡単 距離測定の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">暮らし</p>
+            <h3><a href="https://note.com/americanetf/n/nd07bd2de4fc6" target="_blank" rel="noopener noreferrer">簡単 距離測定</a></h3>
+            <p>カメラを向けて、だいたいの距離を手軽に測ります。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nd07bd2de4fc6" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="遊び" data-search="Lumina Tarot 遊び 78枚のタロットで、今の気分を読み解く占いです。娯楽として楽しんでください。">
+          <a class="card-media" href="https://note.com/americanetf/n/ndaac4186b539" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/tarot.png" alt="Lumina Tarotの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">遊び</p>
+            <h3><a href="https://note.com/americanetf/n/ndaac4186b539" target="_blank" rel="noopener noreferrer">Lumina Tarot</a></h3>
+            <p>78枚のタロットで、今の気分を読み解く占いです。娯楽として楽しんでください。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/ndaac4186b539" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="遊び" data-search="人相性格診断 遊び 顔の形から性格の傾向を読む、エンタメの診断です。">
+          <a class="card-media" href="https://note.com/americanetf/n/nb36170993361" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/ninsou.png" alt="人相性格診断の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">遊び</p>
+            <h3><a href="https://note.com/americanetf/n/nb36170993361" target="_blank" rel="noopener noreferrer">人相性格診断</a></h3>
+            <p>顔の形から性格の傾向を読む、エンタメの診断です。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nb36170993361" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="学習" data-search="英単語バトルRPG 学習 中学1年生の英単語を、バトル形式のRPGで覚えます。">
+          <a class="card-media" href="https://note.com/americanetf/n/n2225ad89ec8f" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/rpg-english.png" alt="英単語バトルRPGの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">学習</p>
+            <h3><a href="https://note.com/americanetf/n/n2225ad89ec8f" target="_blank" rel="noopener noreferrer">英単語バトルRPG</a></h3>
+            <p>中学1年生の英単語を、バトル形式のRPGで覚えます。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n2225ad89ec8f" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="遊び" data-search="有名人名前当て 遊び 年代別の有名人の名前を、10問連続で当てるクイズです。">
+          <a class="card-media" href="https://note.com/americanetf/n/n20d0f2902083" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/namequiz.png" alt="有名人名前当ての画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">遊び</p>
+            <h3><a href="https://note.com/americanetf/n/n20d0f2902083" target="_blank" rel="noopener noreferrer">有名人名前当て</a></h3>
+            <p>年代別の有名人の名前を、10問連続で当てるクイズです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n20d0f2902083" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="健康" data-search="AI肌解析 健康 写真からシミや透明感の印象を見るセルフチェックです。医療診断ではありません。">
+          <a class="card-media" href="https://note.com/americanetf/n/n7315d685aeb5" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/skin.png" alt="AI肌解析の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">健康</p>
+            <h3><a href="https://note.com/americanetf/n/n7315d685aeb5" target="_blank" rel="noopener noreferrer">AI肌解析</a></h3>
+            <p>写真からシミや透明感の印象を見るセルフチェックです。医療診断ではありません。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n7315d685aeb5" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="遊び" data-search="ギャグ判定 遊び 入れたギャグがどれくらい面白いか、AIが判定します。">
+          <a class="card-media" href="https://note.com/americanetf/n/n8d7ed89498a2" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/gag.png" alt="ギャグ判定の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">遊び</p>
+            <h3><a href="https://note.com/americanetf/n/n8d7ed89498a2" target="_blank" rel="noopener noreferrer">ギャグ判定</a></h3>
+            <p>入れたギャグがどれくらい面白いか、AIが判定します。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n8d7ed89498a2" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="健康" data-search="舌の健康診断 健康 舌の写真から状態の目安を整理します。医師の診断に代わるものではありません。">
+          <a class="card-media" href="https://note.com/americanetf/n/nb8c6fe9f93a4" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/tongue.png" alt="舌の健康診断の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">健康</p>
+            <h3><a href="https://note.com/americanetf/n/nb8c6fe9f93a4" target="_blank" rel="noopener noreferrer">舌の健康診断</a></h3>
+            <p>舌の写真から状態の目安を整理します。医師の診断に代わるものではありません。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nb8c6fe9f93a4" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="遊び" data-search="手相解析 遊び 手のひらの写真から、線の印象を読みます。娯楽としての占いです。">
+          <a class="card-media" href="https://note.com/americanetf/n/n8d02c3fd5464" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/tesou.png" alt="手相解析の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">遊び</p>
+            <h3><a href="https://note.com/americanetf/n/n8d02c3fd5464" target="_blank" rel="noopener noreferrer">手相解析</a></h3>
+            <p>手のひらの写真から、線の印象を読みます。娯楽としての占いです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n8d02c3fd5464" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="暮らし" data-search="悩み相談 暮らし ひとつの悩みを、13の視点から整理して返す相談アプリです。">
+          <a class="card-media" href="https://note.com/americanetf/n/n1a3421ae8b51" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/advice.png" alt="悩み相談の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">暮らし</p>
+            <h3><a href="https://note.com/americanetf/n/n1a3421ae8b51" target="_blank" rel="noopener noreferrer">悩み相談</a></h3>
+            <p>ひとつの悩みを、13の視点から整理して返す相談アプリです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n1a3421ae8b51" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="学習" data-search="撮るだけ家庭教師 学習 問題を撮ると、全科目に対応した段階的な解説で、わかるまで寄り添います。">
+          <a class="card-media" href="https://note.com/americanetf/n/na5618ce71a97" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/study.jpg" alt="撮るだけ家庭教師の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">学習</p>
+            <h3><a href="https://note.com/americanetf/n/na5618ce71a97" target="_blank" rel="noopener noreferrer">撮るだけ家庭教師</a></h3>
+            <p>問題を撮ると、全科目に対応した段階的な解説で、わかるまで寄り添います。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/na5618ce71a97" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="暮らし" data-search="やるべきこと 暮らし 先にやることを済ませてから、スマホを開くためのアプリです。">
+          <a class="card-media" href="https://note.com/americanetf/n/n000a72885ef5" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/control.jpg" alt="やるべきことの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">暮らし</p>
+            <h3><a href="https://note.com/americanetf/n/n000a72885ef5" target="_blank" rel="noopener noreferrer">やるべきこと</a></h3>
+            <p>先にやることを済ませてから、スマホを開くためのアプリです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n000a72885ef5" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="学習" data-search="高校受験 国語RPG 学習 偏差値バトルで、高校受験の国語を鍛えるミニゲームです。">
+          <a class="card-media" href="https://note.com/americanetf/n/nf71b2d0c64ed" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/kokugo-rpg.png" alt="高校受験 国語RPGの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">学習</p>
+            <h3><a href="https://note.com/americanetf/n/nf71b2d0c64ed" target="_blank" rel="noopener noreferrer">高校受験 国語RPG</a></h3>
+            <p>偏差値バトルで、高校受験の国語を鍛えるミニゲームです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nf71b2d0c64ed" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="学習" data-search="数チャレ！中2 学習 中学2年生の数学を、ゲーム感覚で練習するアプリです。">
+          <a class="card-media" href="https://note.com/americanetf/n/n46fce645f4d8" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/math.png" alt="数チャレ！中2の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">学習</p>
+            <h3><a href="https://note.com/americanetf/n/n46fce645f4d8" target="_blank" rel="noopener noreferrer">数チャレ！中2</a></h3>
+            <p>中学2年生の数学を、ゲーム感覚で練習するアプリです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n46fce645f4d8" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="遊び" data-search="見た目年齢 × 貫禄 遊び 写真から見た目年齢と貫禄の印象を、5項目で推定します。娯楽用の目安です。">
+          <a class="card-media" href="https://note.com/americanetf/n/nccac9c9fda77" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/mitame.png" alt="見た目年齢 × 貫禄の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">遊び</p>
+            <h3><a href="https://note.com/americanetf/n/nccac9c9fda77" target="_blank" rel="noopener noreferrer">見た目年齢 × 貫禄</a></h3>
+            <p>写真から見た目年齢と貫禄の印象を、5項目で推定します。娯楽用の目安です。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nccac9c9fda77" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="健康" data-search="ふさふさ率チェック 健康 前髪や生え際の印象から、ボリュームの目安を％で見ます。医療診断ではありません。">
+          <a class="card-media" href="https://note.com/americanetf/n/n0b2419d1edec" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/hair.png" alt="ふさふさ率チェックの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">健康</p>
+            <h3><a href="https://note.com/americanetf/n/n0b2419d1edec" target="_blank" rel="noopener noreferrer">ふさふさ率チェック</a></h3>
+            <p>前髪や生え際の印象から、ボリュームの目安を％で見ます。医療診断ではありません。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n0b2419d1edec" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="学習" data-search="国チャレ！中2 学習 中学2年生の国語に絞って、楽しく練習するアプリです。">
+          <a class="card-media" href="https://note.com/americanetf/n/n3f5166b1104b" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/kokugo.png" alt="国チャレ！中2の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">学習</p>
+            <h3><a href="https://note.com/americanetf/n/n3f5166b1104b" target="_blank" rel="noopener noreferrer">国チャレ！中2</a></h3>
+            <p>中学2年生の国語に絞って、楽しく練習するアプリです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n3f5166b1104b" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="学習" data-search="IQテスト 学習 5つの認知領域を測る、ブラウザのIQテストです。臨床検査ではありません。">
+          <a class="card-media" href="https://note.com/americanetf/n/nd633bcc416a3" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/iq.png" alt="IQテストの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">学習</p>
+            <h3><a href="https://note.com/americanetf/n/nd633bcc416a3" target="_blank" rel="noopener noreferrer">IQテスト</a></h3>
+            <p>5つの認知領域を測る、ブラウザのIQテストです。臨床検査ではありません。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nd633bcc416a3" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="遊び" data-search="電車マニアクイズ 遊び 車両形式からダイヤまで、鉄道好き向けの本格クイズです。">
+          <a class="card-media" href="https://note.com/americanetf/n/nf39682e48fc1" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/train.png" alt="電車マニアクイズの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">遊び</p>
+            <h3><a href="https://note.com/americanetf/n/nf39682e48fc1" target="_blank" rel="noopener noreferrer">電車マニアクイズ</a></h3>
+            <p>車両形式からダイヤまで、鉄道好き向けの本格クイズです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nf39682e48fc1" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="遊び" data-search="嘘発見モード 遊び 声の波形と反応の速さから、遊びとして嘘っぽさを見ます。">
+          <a class="card-media" href="https://note.com/americanetf/n/nfcb757251792" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/uso.png" alt="嘘発見モードの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">遊び</p>
+            <h3><a href="https://note.com/americanetf/n/nfcb757251792" target="_blank" rel="noopener noreferrer">嘘発見モード</a></h3>
+            <p>声の波形と反応の速さから、遊びとして嘘っぽさを見ます。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nfcb757251792" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="健康" data-search="千里の道も一歩から 健康 歩数を距離に変えて、日本や世界の名所まで歩く仮想の旅です。">
+          <a class="card-media" href="https://note.com/americanetf/n/nc4388dbee690" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/senri.png" alt="千里の道も一歩からの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">健康</p>
+            <h3><a href="https://note.com/americanetf/n/nc4388dbee690" target="_blank" rel="noopener noreferrer">千里の道も一歩から</a></h3>
+            <p>歩数を距離に変えて、日本や世界の名所まで歩く仮想の旅です。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nc4388dbee690" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="健康" data-search="家庭の医学 健康 症状を入れると、受診の目安や家庭でできるケアを整理します。診断ではありません。">
+          <a class="card-media" href="https://note.com/americanetf/n/n49b43f9dcdf8" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/igaku.png" alt="家庭の医学の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">健康</p>
+            <h3><a href="https://note.com/americanetf/n/n49b43f9dcdf8" target="_blank" rel="noopener noreferrer">家庭の医学</a></h3>
+            <p>症状を入れると、受診の目安や家庭でできるケアを整理します。診断ではありません。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n49b43f9dcdf8" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="暮らし" data-search="MYLINE 暮らし 興味のある話題だけを、短いニュースとして縦に読めます。">
+          <a class="card-media" href="https://note.com/americanetf/n/nc843996453d1" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/news.png" alt="MYLINEの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">暮らし</p>
+            <h3><a href="https://note.com/americanetf/n/nc843996453d1" target="_blank" rel="noopener noreferrer">MYLINE</a></h3>
+            <p>興味のある話題だけを、短いニュースとして縦に読めます。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nc843996453d1" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="健康" data-search="栄養バランス 健康 食事の文を入れると、カロリーと栄養バランスの目安をまとめます。">
+          <a class="card-media" href="https://note.com/americanetf/n/n097dadf59469" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/eiyo.png" alt="栄養バランスの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">健康</p>
+            <h3><a href="https://note.com/americanetf/n/n097dadf59469" target="_blank" rel="noopener noreferrer">栄養バランス</a></h3>
+            <p>食事の文を入れると、カロリーと栄養バランスの目安をまとめます。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n097dadf59469" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="暮らし" data-search="らくスコア 暮らし 記号を覚えなくても記録できる、野球のスコアアプリです。成績は自動で集計します。">
+          <a class="card-media" href="https://note.com/americanetf/n/nec4071ee4b09" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/baseball.png" alt="らくスコアの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">暮らし</p>
+            <h3><a href="https://note.com/americanetf/n/nec4071ee4b09" target="_blank" rel="noopener noreferrer">らくスコア</a></h3>
+            <p>記号を覚えなくても記録できる、野球のスコアアプリです。成績は自動で集計します。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nec4071ee4b09" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="学習" data-search="字をきれいに 学習 大人の字を整える、漢字とひらがなの矯正練習です。">
+          <a class="card-media" href="https://note.com/americanetf/n/nf6fd50813374" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/kirei.png" alt="字をきれいにの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">学習</p>
+            <h3><a href="https://note.com/americanetf/n/nf6fd50813374" target="_blank" rel="noopener noreferrer">字をきれいに</a></h3>
+            <p>大人の字を整える、漢字とひらがなの矯正練習です。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nf6fd50813374" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="健康" data-search="めいそう 健康 続けるのが少し楽しくなる、瞑想のサポートアプリです。">
+          <a class="card-media" href="https://note.com/americanetf/n/n24596c35aeb7" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/meisou.png" alt="めいそうの画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">健康</p>
+            <h3><a href="https://note.com/americanetf/n/n24596c35aeb7" target="_blank" rel="noopener noreferrer">めいそう</a></h3>
+            <p>続けるのが少し楽しくなる、瞑想のサポートアプリです。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/n24596c35aeb7" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="学習" data-search="合う高校 学習 偏差値だけでなく、内申・通学・校風・併願まで見て、高校選びを支えます。">
+          <a class="card-media" href="https://note.com/americanetf/n/nf7fcd4352678" target="_blank" rel="noopener noreferrer">
+            <img src="images/apps/juken.png" alt="合う高校の画面">
+          </a>
+          <div class="card-body">
+            <p class="cat">学習</p>
+            <h3><a href="https://note.com/americanetf/n/nf7fcd4352678" target="_blank" rel="noopener noreferrer">合う高校</a></h3>
+            <p>偏差値だけでなく、内申・通学・校風・併願まで見て、高校選びを支えます。</p>
+            <div class="card-actions">
+              <a class="btn" href="https://note.com/americanetf/n/nf7fcd4352678" target="_blank" rel="noopener noreferrer">紹介記事</a>
+            </div>
+          </div>
+        </article>
+        </div>
+        <p class="empty" id="empty">該当するアプリはありません。ことばを短くするか、カテゴリを「すべて」に戻してください。</p>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrap about-grid">
+        <div>
+          <h2>このサイトについて</h2>
+          <p>私は、文系でパソコンにはあまり詳しくない現在飲食業に携わる50代前半のサラリーマンです。でもAIに興味を持ちプログラミング知識がない中で、AIを活用し様々なアプリ開発を楽しんでいます。</p>
+          <p>皆様の中で何か役に立ちそうなアプリがあれば幸いです。ぜひ、試してみてください。</p>
+          <p class="disclaimer">健康・見た目・占い・診断のアプリは、娯楽または参考情報です。医療行為や確定的な鑑定ではありません。急な体調の変化があるときは、医療機関に連絡してください。</p>
+        </div>
+        <aside class="note-box">
+          <p class="cat">ご連絡</p>
+          <h3>制作者の note</h3>
+          <p>アプリの背景や使い方は、note の記事にも書いています。ご連絡もそちらからお願いします。</p>
+          <p><a class="btn" href="https://note.com/americanetf" target="_blank" rel="noopener noreferrer">noteを開く</a></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>© ittokenkou</p>
+    <nav aria-label="フッター">
+      <a href="#apps">アプリ</a>
+      <a href="#about">このサイト</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+      <a href="https://note.com/americanetf" target="_blank" rel="noopener noreferrer">note</a>
+    </nav>
+  </footer>
+  <script src="js/filter.js"></script>
+</body>
+</html>
